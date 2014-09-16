@@ -108,8 +108,10 @@ $ deactivate
 
 ## Development
 
+If you add new feature don't forget to track the requirements list.
+
 ```bash
 
-$
+$ pip freeze --local > ../requirements/base.txt
 
 ```
