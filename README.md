@@ -76,8 +76,8 @@ Running migrations:
 
 ```bash
 $ python manage.py createsuperuser
-Username (leave blank to use 'zmoog'):
-Email address: maurizio.branca@gmail.com
+Username (leave blank to use 'me'):
+Email address: me@domain.com
 Password:
 Password (again):
 Superuser created successfully.
