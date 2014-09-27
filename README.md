@@ -52,9 +52,11 @@ Install required Python packages:
 
 $ cd ~/code/projects/your-nickname/django-alchemy
 
-$ pip install -r requirements/local.txt
+$ pip install -r requirements/local.txt --upgrade
 
 ```
+
+I've used `--upgrade` option because Selenium require to be always *up-to-date* to match the browser development.
 
 ### Setup the database
 
@@ -114,4 +116,12 @@ If you add new feature don't forget to track the requirements list.
 
 $ pip freeze --local > ../requirements/base.txt
 
+```
+
+## xvfb
+
+To run the functional tests in the Firefox browser on a server you can use `xvfb-run`:
+
+```bash
+$ xvfb-run python3 functional_tests.py
 ```

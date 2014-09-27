@@ -55,3 +55,6 @@ target/
 
 # SQLite
 *.sqlite3
+
+# Vim files
+*.swp
